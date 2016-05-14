@@ -1,11 +1,13 @@
 # Set up a new mac
-Clone this repo on a new mac, then run `setup.sh`.
+This repo is meant for personal use—there's some stuff here that will break if you try to use it unmodified on your system. Feel free, however, to clone it and modify it as you see fit. That's more of less what this is anyway, my own personalized version of many people's different setup scripts.
 
-### Tweaks
-The `tweaks.sh` script sets preferences, it's an edited version of [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465).
+Clone this repo on a new mac, then run `setup.sh`. It runs `tweaks.sh`, `homebrew.sh`, and `ohmyzsh.sh`.
 
-### Homebrew
+### tweaks.sh
+Sets various system settings and preferences—this is just an edited version of [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465).
+
+### homebrew.sh
 Set up [Homebrew](brew.sh) and install the formulae and casks listed in `brewlist` and `casklist`.
 
-### OhMyZsh
-Set up [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh) and tweak with my personal settings.
+### ohmyzsh.sh
+Set up [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh) and symlink my dotfiles from Dropbox.
