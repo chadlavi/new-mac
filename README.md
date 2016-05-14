@@ -7,7 +7,7 @@ Clone this repo on a new mac, then run `setup.sh`. It runs `tweaks.sh`, `homebre
 Sets various system settings and preferences—this is just an edited version of [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465).
 
 ### homebrew.sh
-Set up [Homebrew](brew.sh) and install the formulae and casks listed in `brewlist` and `casklist`.
+Sets up [Homebrew](brew.sh) and installs the formulae and casks listed in `brewlist` and `casklist`.
 
 ### ohmyzsh.sh
-Set up [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh) and symlink my dotfiles from Dropbox.
+Sets up [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh) and symlinks my dotfiles from Dropbox.
