@@ -14,12 +14,16 @@ if [ $? -ne 0 ]; then
 	echo "Brew problem, exiting."
 	exit
 else
-	echo "Installing formulae from brewlist: "
-	for app in $(cat brewlist); do
-		echo "   - Installing $app ... "
-		brew install $app && printf " Done.\n"
-	done
-	echo "Finished installing Homebrew formulae."
+	if [ $(cat brewlist | wc -l) -gt 0 ]; then
+		echo "Installing formulae from brewlist: "
+		for app in $(cat brewlist); do
+			echo "   - Installing $app ... "
+			brew install $app && printf " Done.\n"
+		done
+		echo "Finished installing Homebrew formulae."
+	else
+		echo "Brewlist is empty."
+	fi
 fi
 
 # install cask
@@ -33,11 +37,15 @@ if [ $? -ne 0 ]; then
 	echo "Cask problem, exiting!\n"
 	exit
 else
-	echo "Installing casks from casklist: "
-	for cask in $(cat casklist); do
-		echo "   - Installing $cask ... "
-		brew cask install $app && printf " Done.\n"
-	done
-	echo "Finished installing Homebrew casks."
+	if [ $(cat casklist | wc -l) -gt 0 ]; then
+		echo "Installing casks from casklist: "
+		for cask in $(cat casklist); do
+			echo "   - Installing $cask ... "
+			brew cask install $app && printf " Done.\n"
+		done
+		echo "Finished installing Homebrew casks."
+	else
+		echo "Casklist is empty."
+	fi
 fi
-
+echo "\nhomebrew.sh finished."
