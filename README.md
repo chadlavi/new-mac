@@ -4,11 +4,11 @@ This repo is meant for personal use—there's some stuff here that will break if
 ### Setup
 First, download and unzip this repo:
 ```shell
-curl "https://github.com/chadlavi/new-mac/archive/master.zip" -o "$HOME/Downloads/new-mac.zip" && unzip $HOME/Downloads/new-mac.zip && cd $HOME/Downloads/new-mac
+curl -Lk -o "$HOME/Downloads/new-mac.zip" "https://github.com/chadlavi/new-mac/archive/master.zip" && unzip $HOME/Downloads/new-mac.zip -d $HOME/Downloads/ && cd $HOME/Downloads/new-mac-master
 ```
 Then, run the setup script:
 ```shell
-setup.sh
+./setup.sh
 ``` 
 
 `setup.sh` is just a wrapper to run `tweaks.sh`, `homebrew.sh`, and `ohmyzsh.sh`.
