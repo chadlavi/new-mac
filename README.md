@@ -2,10 +2,8 @@
 This repo is meant for personal use—there's some stuff here that will break if you try to use it unmodified on your system. Feel free, however, to clone it and modify it as you see fit. That's more of less what this is anyway, my own personalized version of many people's different setup scripts.
 
 ### Setup
-1. Download [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
-2. Download and set up [Dropbox](https://www.dropbox.com/downloading?full=1&os=mac)
-3. Download and unzip [this repo](https://github.com/chadlavi/new-mac/archive/master.zip)
-4. run `setup.sh` 
+1. Download and unzip [this repo](https://github.com/chadlavi/new-mac/archive/master.zip)
+2. run `setup.sh` 
 
 `setup.sh` is just a wrapper to run `tweaks.sh`, `homebrew.sh`, and `ohmyzsh.sh`.
 
@@ -19,4 +17,6 @@ Sets up [Homebrew](brew.sh) and installs the formulae and casks listed in `brewl
 ##### ohmyzsh.sh
 Sets up [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh) and symlinks my dotfiles from Dropbox.
 
-
+###### Handy Links
+- Download [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+- Download [Dropbox](https://www.dropbox.com/downloading?full=1&os=mac)
