@@ -14,13 +14,13 @@ setup.sh
 `setup.sh` is just a wrapper to run `tweaks.sh`, `homebrew.sh`, and `ohmyzsh.sh`.
 
 ### What does it do?
-##### [tweaks.sh](../tweaks.sh)
+##### [tweaks.sh](tweaks.sh)
 Sets various system settings and preferences—this is just an edited version of [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465).
 
-##### [homebrew.sh](../homebrew.sh)
+##### [homebrew.sh](homebrew.sh)
 Prompts you to download [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), then sets up [Homebrew](brew.sh) and installs the formulae and casks listed in `brewlist` and `casklist`.
 
-##### [ohmyzsh.sh](../ohmyzsh.sh)
+##### [ohmyzsh.sh](ohmyzsh.sh)
 Sets up [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh) and symlinks my dotfiles from Dropbox.
 
 ### Handy Links in case of problems
