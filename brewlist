@@ -3,6 +3,7 @@ atari800
 autoconf
 awscli
 bdw-gc
+clisp
 coreutils
 cscope
 elinks
@@ -24,6 +25,7 @@ lame
 libevent
 libffi
 libpng
+libsigsegv
 libtiff
 libtool
 lorem
