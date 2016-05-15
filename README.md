@@ -18,7 +18,9 @@ setup.sh
 Sets various system settings and preferences—this is just an edited version of [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465).
 
 ##### [homebrew.sh](homebrew.sh)
-Prompts you to download [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), then sets up [Homebrew](brew.sh) and installs the formulae and casks listed in `brewlist` and `casklist`.
+Prompts you to download Xcode, then sets up [Homebrew](brew.sh) and installs the formulae and casks listed in `brewlist` and `casklist`.
+
+After downloading Dropbox via `brew cask install dropbox`, it will open. 
 
 ##### [ohmyzsh.sh](ohmyzsh.sh)
 Sets up [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh) and symlinks my dotfiles from Dropbox.
