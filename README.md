@@ -6,7 +6,10 @@ This repo is meant for personal use—there's some stuff here that will break if
 ```
 wget -o $HOME/Downloads/new-mac.zip https://github.com/chadlavi/new-mac/archive/master.zip && unzip $HOME/Downloads/new-mac.zip && cd $HOME/Downloads/new-mac
 ```
-2. run `setup.sh` 
+2. run the setup script:
+```
+setup.sh
+``` 
 
 `setup.sh` is just a wrapper to run `tweaks.sh`, `homebrew.sh`, and `ohmyzsh.sh`.
 
