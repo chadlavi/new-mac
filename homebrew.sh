@@ -41,7 +41,11 @@ else
 		echo "Installing casks from casklist: "
 		for cask in $(cat casklist); do
 			echo "   - Installing $cask ... "
-			brew cask install $app && printf " Done.\n"
+			brew cask install $cask && printf " Done.\n"
+			# add iTerm to the dock when it's installed
+			if [[ $cask == 'iterm2' ]]; then
+				defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/iTerm</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
+			fi
 		done
 		echo "Finished installing Homebrew casks."
 	else
