@@ -1,10 +1,12 @@
 # Set up a new mac
 This repo is meant for personal use—there's some stuff here that will break if you try to use it unmodified on your system. Feel free, however, to clone it and modify it as you see fit. That's more of less what this is anyway, my own personalized version of many people's different setup scripts.
 
-#### NOTE: Set up [Dropbox](https://www.dropbox.com/downloading?full=1&os=mac) first.
+### How-to
+1. Download and set up [Dropbox](https://www.dropbox.com/downloading?full=1&os=mac) syncing on the new mac.
+2. Download and unzip [this repo](https://github.com/chadlavi/new-mac/archive/master.zip).
+3. run `setup.sh`. 
 
-
-Clone this repo on a new mac, then run `setup.sh`. It runs `tweaks.sh`, `homebrew.sh`, and `ohmyzsh.sh`.
+`setup.sh` is just a wrapper to run `tweaks.sh`, `homebrew.sh`, and `ohmyzsh.sh`.
 
 ### tweaks.sh
 Sets various system settings and preferences—this is just an edited version of [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465).
