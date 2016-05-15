@@ -4,7 +4,7 @@ This repo is meant for personal use—there's some stuff here that will break if
 ### Setup
  1. Download and unzip this repo:
 ```shell
-wget -o $HOME/Downloads/new-mac.zip https://github.com/chadlavi/new-mac/archive/master.zip && unzip $HOME/Downloads/new-mac.zip && cd $HOME/Downloads/new-mac
+curl "https://github.com/chadlavi/new-mac/archive/master.zip" -o "$HOME/Downloads/new-mac.zip" && unzip $HOME/Downloads/new-mac.zip && cd $HOME/Downloads/new-mac
 ```
  2. run the setup script:
 ```shell
