@@ -8,11 +8,11 @@ This repo is meant for personal use—there's some stuff here that will break if
 
 `setup.sh` is just a wrapper to run `tweaks.sh`, `homebrew.sh`, and `ohmyzsh.sh`.
 
-### tweaks.sh
+##### tweaks.sh
 Sets various system settings and preferences—this is just an edited version of [osx-for-hackers.sh](https://gist.github.com/brandonb927/3195465).
 
-### homebrew.sh
+##### homebrew.sh
 Sets up [Homebrew](brew.sh) and installs the formulae and casks listed in `brewlist` and `casklist`.
 
-### ohmyzsh.sh
+##### ohmyzsh.sh
 Sets up [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh) and symlinks my dotfiles from Dropbox.
