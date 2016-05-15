@@ -10,11 +10,11 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo "Ok. We'll start with the tweaks."
 	bash tweaks.sh
-	echo "Now we'll install homebrew."
+	echo "Now we'll install Homebrew."
 	bash homebrew.sh
 	echo "Now we'll install OhMyZsh."
 	bash ohmyzsh.sh
-else
 	echo "All done! Exiting."
-	exit
+else
+	echo "Ok then! Exiting."
 fi
