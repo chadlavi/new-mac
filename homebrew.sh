@@ -47,6 +47,10 @@ else
 				defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/iTerm</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
 				killall Dock
 			fi
+			# open the Dropbox app after it is installed
+			if [[ $cask == 'dropbox' ]]; then
+				open -a Dropbox
+			fi
 		done
 		echo "Finished installing Homebrew casks."
 	else

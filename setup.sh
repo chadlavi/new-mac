@@ -2,10 +2,9 @@
 clear
 echo "WARNING: this setup script will make changes to this mac.
 
-** set up Dropbox before you execute this setup script **
 "
 read -p "Are you sure you want to continue? " -n 1 -r
-echo    # (optional) move to a new line
+echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo "Ok. We'll start with the tweaks."
