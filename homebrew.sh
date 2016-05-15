@@ -1,6 +1,11 @@
 #!/bin/bash
 
+echo "First, go install Xcode!"
+read -n1 -r -p "Press space once to open iTunes store."
+open https://itunes.apple.com/us/app/xcode/id497799835
+
 # Install Homebrew
+read -n1 -r -p "Hit any key to continue with Homebrew installation."
 echo "Installing Homebrew... "
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && printf " Done.\n"
 
