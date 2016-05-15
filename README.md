@@ -17,6 +17,6 @@ Sets up [Homebrew](brew.sh) and installs the formulae and casks listed in `brewl
 ##### ohmyzsh.sh
 Sets up [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh) and symlinks my dotfiles from Dropbox.
 
-###### Handy Links
+### Handy Links
 - Download [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - Download [Dropbox](https://www.dropbox.com/downloading?full=1&os=mac)
