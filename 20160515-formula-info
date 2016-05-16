@@ -1,0 +1,288 @@
+ansiweather: stable 1.07, HEAD
+Weather in your terminal, with ANSI colors and Unicode symbols
+
+aspell: stable 0.60.6.1 (bottled), devel 0.60.7-20110707
+Spell checker with better logic than ispell
+
+homebrew/games/atari800: stable 3.1.0, HEAD
+Atari 8-bit machine emulator
+
+autoconf: stable 2.69 (bottled)
+Automatic configure script builder
+
+automake: stable 1.15 (bottled)
+Tool for generating GNU Standards-compliant Makefiles
+
+awscli: stable 1.10.28 (bottled), HEAD
+Official Amazon AWS command-line interface
+
+bdw-gc: stable 7.4.2 (bottled), HEAD
+Garbage collector for C and C++
+
+cairo: stable 1.14.6 (bottled), devel 1.15.2
+Vector graphics library with cross-device output support
+
+clisp: stable 2.49 (bottled)
+GNU CLISP, a Common Lisp implementation
+
+coreutils: stable 8.25 (bottled), HEAD
+GNU File, Shell, and Text utilities
+
+cscope: stable 15.8b (bottled)
+Tool for browsing source code
+
+elinks: stable 0.11.7 (bottled), devel 0.12pre6, HEAD
+Text mode web browser
+
+fail2ban: stable 0.8.14 (bottled)
+Scan log files and ban IPs showing malicious signs
+
+ffmpeg: stable 3.0.2 (bottled), HEAD
+Play, record, convert, and stream audio and video
+
+fftw: stable 3.3.4 (bottled)
+C routines to compute the Discrete Fourier Transform
+
+fontconfig: stable 2.11.1 (bottled)
+XML-based font configuration API for X Windows
+
+freetype: stable 2.6.3 (bottled)
+Software library to render fonts
+
+gcal: stable 4 (bottled)
+Program for calculating and printing calendars
+
+gdbm: stable 1.11 (bottled)
+GNU database manager
+
+gdk-pixbuf: stable 2.32.3 (bottled)
+Toolkit for image loading and pixel buffer manipulation
+
+gettext: stable 0.19.7 (bottled) [keg-only]
+GNU internationalization (i18n) and localization (l10n) library
+
+giflib: stable 4.2.3 (bottled)
+GIF library using patented LZW algorithm
+
+gifsicle: stable 1.88 (bottled), HEAD
+GIF image/animation creator/editor
+
+git: stable 2.8.2 (bottled), HEAD
+Distributed revision control system
+
+glib: stable 2.46.2 (bottled)
+Core application library for C
+
+gnupg: stable 1.4.20 (bottled)
+GNU Pretty Good Privacy (PGP) package
+
+gobject-introspection: stable 1.46.0 (bottled)
+Generate introspection data for GObject libraries
+
+googler: stable 2.3 (bottled)
+Google Search and News from the command-line
+
+graphicsmagick: stable 1.3.23 (bottled), HEAD
+Image processing tools collection
+
+harfbuzz: stable 1.2.6 (bottled), HEAD
+OpenType text shaping engine
+
+htop-osx: stable 0.8.2.8 (bottled)
+Improved top (interactive process viewer) for OS X
+
+icu4c: stable 57.1 (bottled), HEAD [keg-only]
+C/C++ and Java libraries for Unicode and globalization
+
+imagemagick: stable 6.9.4-1 (bottled), HEAD
+Tools and libraries to manipulate images in many formats
+
+irssi: stable 0.8.19 (bottled), HEAD
+Modular IRC client
+
+jpeg: stable 8d (bottled)
+JPEG image manipulation library
+
+jq: stable 1.5 (bottled), HEAD
+Lightweight and flexible command-line JSON processor
+
+keybase: stable 1.0.15 (bottled), HEAD
+Command-line interface to Keybase.io
+
+lame: stable 3.99.5 (bottled)
+Lame Aint an MP3 Encoder (LAME)
+
+libcroco: stable 0.6.11 (bottled)
+CSS parsing and manipulation toolkit for GNOME
+
+libevent: stable 2.0.22 (bottled), HEAD
+Asynchronous event library
+
+libexif: stable 0.6.21 (bottled)
+EXIF parsing library
+
+libffi: stable 3.0.13 (bottled), HEAD [keg-only]
+Portable Foreign Function Interface library
+
+libgpg-error: stable 1.22 (bottled)
+Common error values for all GnuPG components
+
+libgsf: stable 1.14.36 (bottled), HEAD
+I/O abstraction library for dealing with structured file formats
+
+libksba: stable 1.3.4 (bottled)
+X.509 and CMS library
+
+libpng: stable 1.6.21 (bottled), HEAD
+Library for manipulating PNG images
+
+librsvg: stable 2.40.13 (bottled)
+Library to render SVG files using Cairo
+
+libsigsegv: stable 2.10 (bottled)
+Library for handling page faults in user mode
+
+libtiff: stable 4.0.6 (bottled)
+TIFF library and utilities
+
+libtool: stable 2.4.6 (bottled)
+Generic library support script
+
+libvo-aacenc: stable 0.1.3 (bottled)
+VisualOn AAC encoder library
+
+libyaml: stable 0.1.6 (bottled)
+YAML Parser
+
+little-cms2: stable 2.7 (bottled)
+Color management engine supporting ICC profiles
+
+lorem: stable 0.7.4, HEAD
+Lorem Ipsum generator
+
+lynx: stable 2.8.8rel.2 (bottled)
+Text-based web browser
+
+macvim: stable 7.4-103, HEAD
+GUI for vim, made for OS X
+
+mongodb: stable 3.2.6 (bottled)
+High-performance, schema-free, document-oriented database
+
+homebrew/games/nethack: stable 3.6.0 (bottled)
+Single-player roguelike video game
+
+node: stable 6.1.0 (bottled), HEAD
+Platform built on the V8 JavaScript runtime to build network applications
+
+oniguruma: stable 5.9.6 (bottled)
+Regular expressions library
+
+openjpeg: stable 1.5.2 (bottled), HEAD
+Library for JPEG-2000 image manipulation
+
+openssl: stable 1.0.2h (bottled) [keg-only]
+SSL/TLS cryptography library
+
+orc: stable 0.4.25 (bottled)
+Oil Runtime Compiler (ORC)
+
+p7zip: stable 15.14.1 (bottled)
+7-Zip (high compression file archiver) implementation
+
+pango: stable 1.38.1 (bottled), HEAD
+Framework for layout and rendering of i18n text
+
+pixman: stable 0.34.0 (bottled)
+Low-level library for pixel manipulation
+
+pkg-config: stable 0.29.1 (bottled)
+Manage compile and link flags for libraries
+
+poppler: stable 0.43.0 (bottled)
+PDF rendering library (based on the xpdf-3.0 code base)
+
+portaudio: stable 19.20140130 (bottled), HEAD
+Cross-platform library for audio I/O
+
+py2cairo: stable 1.10.0 (bottled)
+Python 2 bindings for the Cairo graphics library
+
+pyenv: stable 20160509, HEAD
+Python version management
+
+pygobject3: stable 3.20.1 (bottled)
+GNOME Python bindings (based on GObject Introspection)
+
+python: stable 2.7.11 (bottled), HEAD
+Interpreted, interactive, object-oriented programming language
+
+python3: stable 3.5.1 (bottled), HEAD
+Interpreted, interactive, object-oriented programming language
+
+readline: stable 6.3.8 (bottled) [keg-only]
+Library for command-line editing
+
+rename: stable 1.600 (bottled), HEAD
+Perl-powered file rename script with many helpful built-ins
+
+rtv: stable 1.8.0 (bottled)
+Command-line Reddit client
+
+homebrew/dupes/screen: stable 4.3.1 (bottled), HEAD
+Terminal multiplexer with VT100/ANSI terminal emulation
+
+sdl: stable 1.2.15 (bottled), HEAD
+Low-level access to audio, keyboard, mouse, joystick and graphics
+
+speedtest_cli: stable 0.3.4, HEAD
+Command-line interface for http://speedtest.net bandwidth tests
+
+sqlite: stable 3.12.2 (bottled) [keg-only]
+Command-line interface for SQLite
+
+tmux: stable 2.1 (bottled), HEAD
+Terminal multiplexer
+
+tree: stable 1.7.0 (bottled)
+Display directories as trees (with optional color/HTML output)
+
+homebrew/games/tty-solitaire: stable 0.2.0
+Ncurses-based klondike solitaire game
+
+vim: stable 7.4.1830, HEAD
+Vi "workalike" with many additional features
+
+homebrew/science/vips: stable 8.3.1 (bottled)
+Image processing library
+
+w3m: stable 0.5.3 (bottled)
+Pager/text based browser
+
+wakeonlan: stable 0.41 (bottled)
+Sends magic packets to wake up network-devices
+
+watson: stable 1.3.2 (bottled), HEAD
+Command-line tool to track (your) time
+
+webp: stable 0.5.0 (bottled), HEAD
+Image format providing lossless and lossy compression for web images
+
+wget: stable 1.17.1 (bottled), HEAD
+Internet file retriever
+
+x264: stable r2668 (bottled), devel r2694, HEAD
+H.264/AVC encoder
+
+xvid: stable 1.3.4 (bottled)
+High-performance, high-quality MPEG-4 video library
+
+xz: stable 5.2.2 (bottled)
+General-purpose data compression with high compression ratio
+
+youtube-dl: stable 2016.05.10 (bottled), HEAD
+Download YouTube videos from the command-line
+
+zsh-syntax-highlighting: stable 0.4.1 (bottled), HEAD
+Fish shell like syntax highlighting for zsh
+
