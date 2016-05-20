@@ -57,6 +57,8 @@ else
 				open -a Dropbox
 			fi
 		done
+		echo "Symlinking apps to Apps folder... "
+		brew linkapps && printf " Done.\n"
 		echo "Finished installing Homebrew casks."
 	else
 		echo "Casklist is empty."
