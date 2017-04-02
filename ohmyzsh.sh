@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Have you set up Dropbox yet? It must be set uo before executing this script. (y/n) " -n 1 -r
+read -p "Have you set up Dropbox yet? It must be set up before executing this script. (y/n) " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	# paths to dotfiles in Dropbox
